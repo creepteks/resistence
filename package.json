@@ -4,6 +4,7 @@
   "description": "Resistence is an anonymous, private, and anti-bibery Ethereum-based E-voting protocol ",
   "repository": "https://github.com/creepteks/resistence",
   "license": "MIT",
+  "private":"true",
   "keywords": [
     "resistence",
     "e-voting",
@@ -12,5 +13,11 @@
     "semaphore",
     "javascript",
     "typescript"
-  ]
+  ],
+  "workspaces":[
+    "apps/*"
+  ],
+  "dependencies": {
+    "typescript": "^4.9.5"
+  }
 }
